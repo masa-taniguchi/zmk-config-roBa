@@ -68,9 +68,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                      &kp T                                                            &kp Y        &kp U  &lt 3 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                      &kp G        &kp LS(LG(S))                    &kp RC(C)          &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp A             &kp S         &kp D         &kp F                      &kp G        &kp C_SNAPSHOT                   &kp RC(C)          &kp H        &kp J  &kp K      &kp L    &lt 1 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &kp RC(Z)                        &kp RC(SEMICOLON)  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 2 SPACE  &lt_to_layer_0 5 LANG_HANGEUL    &kp BACKSPACE      &lt 2 ENTER                             &kp RIGHT_SHIFT
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL    &kp BACKSPACE      &lt 2 ENTER                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -107,10 +107,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &mkp MB3  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &trans    &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &kp RA(LEFT_ARROW)  &mkp MB3        &kp RA(RIGHT_ARROW)  &kp PAGE_UP
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1            &kp UP_ARROW    &mkp MB2             &kp PAGE_DOWN
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp RCTRL
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                           &kp RIGHT_SHIFT
             >;
         };
 
