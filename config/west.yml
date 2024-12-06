@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: kumamuk-git
+    - name: masa-taniguchi
       url-base: https://github.com/kumamuk-git
   projects:
     - name: zmk
@@ -10,7 +10,7 @@ manifest:
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: kumamuk-git
+      remote: masa-taniguchi
       revision: main
   self:
     path: config
