@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                      &kp G        &kp LC(X)             &kp RC(C)      &kp H        &kp J  &kp K      &kp L    &lt 1 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &kp RC(Z)             &kp RC(V)      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt 5 LANG_HANGEUL    &kp BACKSPACE  &lt 2 ENTER                             &kp RIGHT_SHIFT
+&kp Q             &kp W         &kp E         &kp R                      &kp T                                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                      &kp G        &kp LC(RG(LEFT_ARROW))    &kp RG(RC(RIGHT_ARROW))  &kp H        &kp J  &kp K      &kp L    &lt 1 MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &kp RC(RG(D))             &kp RG(RC(F4))           &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt 5 LANG_HANGEUL        &kp BACKSPACE            &lt 2 ENTER                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -118,7 +118,7 @@
             bindings = <
 &kp PRINTSCREEN  &kp LEFT_ARROW  &kp UP_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW                        &kp RC(RA(NUMBER_7))  &kp RG(RS(LEFT_ARROW))  &kp RG(RS(RIGHT_ARROW))  &trans  &trans
 &trans           &kp HOME        &kp C_VOLUME_UP    &kp LCTRL       &kp LEFT_ALT     &trans    &trans      &kp RC(RS(G))         &kp RG(LEFT_ARROW)      &kp RG(RIGHT_ARROW)      &trans  &trans
-&trans           &kp END         &kp C_VOLUME_DOWN  &kp LEFT_SHIFT  &trans           &trans    &trans      &trans                &kp RG(RC(UP_ARROW))    &kp RG(DOWN_ARROW)       &trans  &trans
+&trans           &kp END         &kp C_VOLUME_DOWN  &kp LEFT_SHIFT  &trans           &trans    &trans      &trans                &kp RG(UP_ARROW)        &kp RG(DOWN_ARROW)       &trans  &trans
 &trans           &trans          &trans             &trans          &trans           &trans    &kp DELETE  &trans                                                                         &trans
             >;
         };
