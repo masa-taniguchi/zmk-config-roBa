@@ -108,10 +108,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &kp RIGHT_ALT
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans    &kp RCTRL
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &kp RIGHT_SHIFT
+&trans  &trans  &trans  &trans             &trans                    &trans  &trans    &trans  &trans    &kp RIGHT_ALT
+&trans  &trans  &trans  &trans             &trans  &trans    &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans             &trans  &trans    &trans  &trans  &trans    &trans  &trans    &kp RCTRL
+&trans  &trans  &trans  &to_layer_0 LANG2  &trans  &trans    &trans  &trans                              &kp RIGHT_SHIFT
             >;
         };
 
